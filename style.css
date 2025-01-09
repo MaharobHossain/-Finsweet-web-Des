@@ -3,6 +3,7 @@
 /* General Reset */
 body {
     margin: 0;
+    padding: 0;
     font-family: Poppins;
     font-family: poppins;
     background-color: #1c1f4a;
@@ -12,6 +13,7 @@ body {
 /* Header Styles */
 header {
     /* display: flex; */
+    /* width: 1600px; */
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
@@ -53,14 +55,7 @@ header nav a {
 header nav a:hover {
     color: #d7d8e3;
 }
-/* .contact{
-    width:185px ;
-    height: 60px;
-    font-size: 16px;
-    line-height: 28px;
-   border:2px solid #F4F6FC5E;
-   border-radius: 41px;
-} */
+
 .contact{
     padding: 10px 20px;
     border: 1px solid #ffffff;
@@ -145,58 +140,71 @@ header nav a:hover {
 
 
 /* General Styles */
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9fafc;
     color: #333;
-}
+} */
 
-.container {
-    width: 90%;
+.container2 {
+    width: 100%;
     max-width: 1200px;
+    height: 601px;
     margin: 0 auto;
     padding: 40px 0;
+    display: inline;
 }
 
 /* How We Work Section */
-.how-we-work {
+.how-we-work{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 40px;
-    background-color: #fff;
+    background-color: #efefef;
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.how-we-work .left {
+.left {
     flex: 1;
-    min-width: 300px;
+    display: inline;
+    width: 405px;
+    height: 184px;
+    margin-top: 128px;
+    margin-left: 160px;
 }
 
-.how-we-work .left h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #1e1e2c;
+.left h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
     margin-bottom: 20px;
 }
 
-.how-we-work .left p {
+.left p {
+    font-family: Poppins;
     font-size: 16px;
-    line-height: 1.6;
-    color: #64667c;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    opacity: 70%;
     margin-bottom: 20px;
 }
 
-.how-we-work .left a {
-    display: inline-block;
-    color: #4b60e6;
+.left a {
+    /* display: inline-block; */
+    color: #2405F2;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
 }
 
 .how-we-work .left a:hover {
@@ -205,20 +213,21 @@ body {
 
 .how-we-work .right {
     flex: 2;
-    display: grid;
+    /* display: inline; */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
 
-.how-we-work .card {
+/* .how-we-work .card {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+} */
 
-.how-we-work .card .step {
+
+.work-step{
     font-size: 18px;
     font-weight: bold;
     color: #4b60e6;
@@ -228,15 +237,14 @@ body {
     border-radius: 50px;
     margin-bottom: 15px;
 }
-
-.how-we-work .card h3 {
+.work-step h3{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #1e1e2c;
 }
 
-.how-we-work .card p {
+.work-step p{
     font-size: 14px;
     color: #64667c;
     line-height: 1.5;
