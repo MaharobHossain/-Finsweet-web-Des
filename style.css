@@ -150,7 +150,7 @@ header nav a:hover {
 
 .container2 {
     width: 100%;
-    height: 450px;
+    height: 530px;
     margin: 0 auto;
     padding: 60px 0;
     display: flex;
@@ -164,7 +164,7 @@ header nav a:hover {
     gap: 40px;
     background-color: #F4F6FC;
     padding: 50px;
-    border-radius: 8px;
+    
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -217,14 +217,6 @@ header nav a:hover {
     margin-left: 75px;
 }
 
-/* .how-we-work .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-} */
-
 
 .work-step{
    
@@ -241,7 +233,6 @@ header nav a:hover {
     font-size: 34px;
     font-weight: 500;
     line-height: 25px;
-    /* margin-bottom: 10px; */
     color: #282938;
 }
 
@@ -252,3 +243,31 @@ header nav a:hover {
     color: #282938;
     line-height: 25px;
 }
+
+.view-project{
+    width: 100%;
+    height: 728px;
+    background-color: #FFFFFF;
+}
+.top-text{
+    color: #282938;
+    display: flex;
+    justify-content: space-around;
+}
+.top-text h1{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 20px;
+    margin-left: -125px;
+}
+
+.top-text p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 76px;
+    margin-right: -115px;
+}
+
+
