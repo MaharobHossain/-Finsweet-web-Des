@@ -143,3 +143,101 @@ header nav a:hover {
     height: 230px;
 }
 
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* How We Work Section */
+.how-we-work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.how-we-work .left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.how-we-work .left h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e1e2c;
+    margin-bottom: 20px;
+}
+
+.how-we-work .left p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #64667c;
+    margin-bottom: 20px;
+}
+
+.how-we-work .left a {
+    display: inline-block;
+    color: #4b60e6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.how-we-work .left a:hover {
+    text-decoration: underline;
+}
+
+.how-we-work .right {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.how-we-work .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.how-we-work .card .step {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4b60e6;
+    background-color: #e0e4ff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.how-we-work .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1e1e2c;
+}
+
+.how-we-work .card p {
+    font-size: 14px;
+    color: #64667c;
+    line-height: 1.5;
+}
