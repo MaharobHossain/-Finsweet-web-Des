@@ -270,4 +270,27 @@ header nav a:hover {
     margin-right: -115px;
 }
 
+.box{
+    display: flex;
+    width: 1400px;
+}
+
+.box2{
+    background-image: url(Images/Card.jpg);
+    width: 870px;
+    height: 600px;
+    margin-left: 115px;
+}
+.pink-box{
+    margin-top: -18px;
+    background-image: url(Images/Rectangle\ 1316.png);
+    width: 326px;
+    height: 600px;
+    
+}
+
+.box3{
+    margin-left: 30px;
+}
+
 
