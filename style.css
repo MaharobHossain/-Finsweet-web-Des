@@ -506,3 +506,83 @@ header nav a:hover {
     color: #282938;
     line-height: 20px;
   }
+
+
+
+
+
+
+
+  .faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .faq-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .faq-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .faq-header a {
+    font-size: 14px;
+    color: #6C63FF;
+    text-decoration: none;
+  }
+  
+  .faq-header a:hover {
+    text-decoration: underline;
+  }
+  
+  .faq-items {
+    border-top: 1px solid #ddd;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  
+  .faq-question span {
+    color: #6C63FF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .faq-question h3 {
+    flex: 1;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #222;
+  }
+  
+  .faq-question .toggle {
+    font-size: 18px;
+    color: #6C63FF;
+  }
+  
+  .faq-answer {
+    padding: 10px 0 15px;
+    display: none;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block;
+  }
+
+  
