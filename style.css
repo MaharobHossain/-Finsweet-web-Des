@@ -600,11 +600,6 @@ header nav a:hover {
 
 
 
-
-
-
-
-
   .container88 {
     display: flex;
     flex-direction: row;
@@ -716,3 +711,77 @@ header nav a:hover {
     color: #d0b51e;
   }
 
+
+
+
+
+
+
+
+  .blog-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .blog-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: left;
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-content {
+    padding: 20px;
+  }
+  
+  .blog-content .date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    color: #0056b3;
+  }
