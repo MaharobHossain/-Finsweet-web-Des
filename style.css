@@ -6,22 +6,24 @@ body {
     padding: 0;
     font-family: Poppins;
     font-family: poppins;
-    background-color: #1c1f4a;
+    /* background-color: #1c1f4a; */
     color: #ffffff;
+    /* width: 100%; */
 }
 
 /* Header Styles */
 header {
     /* display: flex; */
-    /* width: 1600px; */
+    width: 1100px;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-right: 80px;
     background-color: #1c1f4a;
 }
 .container{
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,12 +76,13 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
     background-color: #1c1f4a;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-right: 80px;
    
 }
@@ -138,15 +141,6 @@ header nav a:hover {
     height: 230px;
 }
 
-
-/* General Styles */
-/* body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9fafc;
-    color: #333;
-} */
 
 .container2 {
     width: 100%;
@@ -259,7 +253,7 @@ header nav a:hover {
     font-weight: 600;
     font-size: 48px;
     line-height: 20px;
-    margin-left: -125px;
+    margin-left: -170px;
 }
 
 .top-text p{
@@ -267,7 +261,7 @@ header nav a:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 76px;
-    margin-right: -115px;
+    margin-right: -150px;
 }
 
 .box{
@@ -277,15 +271,15 @@ header nav a:hover {
 
 .box2{
     background-image: url(Images/Card.jpg);
-    width: 870px;
-    height: 600px;
+    width: 700px;
+    height: 567px;
     margin-left: 115px;
 }
 .pink-box{
-    margin-top: -18px;
+    margin-top: -21px;
     background-image: url(Images/Rectangle\ 1316.png);
-    width: 326px;
-    height: 600px;
+    width: 356px;
+    height: 567px;
     
 }
 .pink-box h3{
@@ -314,9 +308,37 @@ header nav a:hover {
     padding-left: 19px;
     line-height: 28px;
 }
-
 .box3{
-    margin-left: 30px;
+    margin-top: -15px;
 }
+.box4{
+    background-image: url(Images/Card\ \ 2.jpg);
+    width: 405px;
+    height: 284px;
+    margin-left: 0px;
+}
+.box-blue{
+    margin-top: -21px;
+    background-image: url(Images/Rectangle\ 1317.png);
+    width: 405px;
+    height: 284px;
+}
+.box-blue h4{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 36px;
+    padding-top: 120px;
+    padding-left: 89px;
+}
+.box-blue h5{
+    color: #FCD980;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 89px; 
+}
+
 
 
