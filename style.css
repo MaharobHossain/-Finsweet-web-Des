@@ -719,31 +719,36 @@ header nav a:hover {
 
 
   .blog-section {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 50px 20px;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 21px;
   }
   
   .blog-section h1 {
-    font-size: 2.5rem;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
     margin-bottom: 30px;
-    color: #333;
+    margin-left: 55px;
+    line-height: 64px;
+    color: #282938;
   }
   
   .blog-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
   }
   
   .blog-card {
+    width: 375px;
     background-color: #fff;
-    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 350px;
+    /* max-width: 350px; */
     text-align: left;
   }
   
@@ -757,28 +762,39 @@ header nav a:hover {
   }
   
   .blog-content .date {
-    font-size: 0.9rem;
-    color: #888;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
     margin-bottom: 10px;
   }
   
   .blog-content h2 {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #282938;
+    /* margin-bottom: 10px; */
   }
   
   .blog-content p {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #282938;
+    /* margin-bottom: 20px; */
   }
   
   .read-more {
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
     transition: color 0.3s ease;
   }
   
