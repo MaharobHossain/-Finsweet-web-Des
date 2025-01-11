@@ -811,7 +811,72 @@ header nav a:hover {
 
 
 
- 
+  .footer {
+    background-color: #1A2240;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left, .footer-right {
+    flex: 1;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .footer-left h2, .footer-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left p, .footer-right p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box {
+    background-color: #FFD37E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .contact-item h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-item p {
+    font-size: 0.95rem;
+    color: #1A2240;
+  }
+  
+  .footer-right .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer-right .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .footer-right .social-icons img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1); /* Makes the icons white for dark background */
+  }
 
 
   
