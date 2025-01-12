@@ -1089,6 +1089,22 @@ header nav a:hover {
     font-weight: 400;
     color: #c6c5c5;
 }
+.btn-primary{
+  padding: 10px 20px;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Manrope;
+  text-decoration: none;
+  color: #1c1f4a;
+  background-color: #FCD980;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
 
 
 
