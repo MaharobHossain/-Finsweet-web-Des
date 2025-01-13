@@ -1161,6 +1161,26 @@ header nav a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.left {
+  flex: 1;
+  display: inline;
+  width: 405px;
+  height: 184px;
+  margin-top: -10px;
+  margin-left: 39px;
+} 
+
+.left h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 20px;
+}
+
+
+
 
 
 
