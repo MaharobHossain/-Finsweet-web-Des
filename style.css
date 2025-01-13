@@ -1211,6 +1211,25 @@ header nav a:hover {
 }
 
 
+.work-step{
+ 
+  color: #7f85ab;
+  width: 328px;
+  height: 178px;
+  display:inline-block;
+  padding: 25px 5px;
+  border-radius: 5px;
+  
+}
+.work-step h3{
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #282938;
+}
+
+
 
 
 
