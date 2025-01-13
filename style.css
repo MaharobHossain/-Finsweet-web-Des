@@ -1229,6 +1229,13 @@ header nav a:hover {
   color: #282938;
 }
 
+.work-step p{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 25px;
+}
 
 
 
