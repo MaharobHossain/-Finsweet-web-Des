@@ -1344,4 +1344,34 @@ header nav a:hover {
 
 
 
+
+
+
+
+.box-blue{
+  margin-top: -21px;
+  background-image: url(Images/Rectangle\ 1317.png);
+  width: 405px;
+  height: 284px;
+}
+.box-blue h4{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 36px;
+  padding-top: 120px;
+  padding-left: 89px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
   }
