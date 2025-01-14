@@ -1322,6 +1322,24 @@ header nav a:hover {
 
 
 
+.pink-box h5{
+  color: #FCD980;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 19px;
+  line-height: 28px;
+}
+.box3{
+  margin-top: -15px;
+}
+.box4{
+  background-image: url(Images/Card\ \ 2.jpg);
+  width: 405px;
+  height: 284px;
+  margin-left: 0px;
+}
 
 
 
