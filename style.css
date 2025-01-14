@@ -1300,6 +1300,26 @@ header nav a:hover {
 }
 
 
+.pink-box h3{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  padding-top: 248px;
+  padding-left: 19px;
+  
+}
+.pink-box p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 19px;
+  color: #d7d2d2;
+}
+
+
+
 
 
 
