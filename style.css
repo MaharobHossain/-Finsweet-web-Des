@@ -1278,8 +1278,6 @@ header nav a:hover {
   margin-right: -215px;
 }
 
-
-
 .box{
   display: flex;
   /* width: 1250px; */
@@ -1299,7 +1297,6 @@ header nav a:hover {
   
 }
 
-
 .pink-box h3{
   font-family: Poppins;
   font-weight: 500;
@@ -1317,10 +1314,6 @@ header nav a:hover {
   padding-left: 19px;
   color: #d7d2d2;
 }
-
-
-
-
 
 .pink-box h5{
   color: #FCD980;
@@ -1342,12 +1335,6 @@ header nav a:hover {
 }
 
 
-
-
-
-
-
-
 .box-blue{
   margin-top: -21px;
   background-image: url(Images/Rectangle\ 1317.png);
@@ -1363,8 +1350,14 @@ header nav a:hover {
   padding-left: 89px;
 }
 
-
-
+.box-blue h5{
+  color: #FCD980;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 89px; 
+}
 
 
 
