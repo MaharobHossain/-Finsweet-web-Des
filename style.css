@@ -1280,6 +1280,29 @@ header nav a:hover {
 
 
 
+.box{
+  display: flex;
+  /* width: 1250px; */
+}
+
+.box2{
+  background-image: url(Images/Card.jpg);
+  width: 765px;
+  height: 567px;
+  margin-left: 90px;
+}
+.pink-box{
+  margin-top: -21px;
+  background-image: url(Images/Rectangle\ 1316.png);
+  width: 386px;
+  height: 567px;
+  
+}
+
+
+
+
+
 
 
 
