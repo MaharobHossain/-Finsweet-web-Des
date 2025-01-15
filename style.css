@@ -1454,10 +1454,16 @@ header nav a:hover {
    font-weight: 500;
    line-height: 26px;
    color: #282938;
-   /* margin-bottom: 10px; */
   }
   
- 
+  .feature-card p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+   }
+   
 
 
 
