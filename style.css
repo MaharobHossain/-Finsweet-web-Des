@@ -1367,4 +1367,47 @@ header nav a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.features {
+  width: 1250px;
+ text-align: center;
+ padding: 50px 49px;
+ height: 990px;
+ background-color: #F4F6FC;
+}
+
+.features h2 {
+ font-family: Poppins;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 28px;
+ color: #282938;
+ text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
   }
