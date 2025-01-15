@@ -1402,7 +1402,28 @@ header nav a:hover {
  text-transform: uppercase;
 }
 
-
+.features h3 {
+  width: 630px;
+  height: 192px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 360px;
+ }
+ 
+ .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 60px;
+  max-width: 1200px;
+  margin: 50px;
+ }
+ 
+ 
 
 
 
