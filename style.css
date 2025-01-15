@@ -1423,7 +1423,24 @@ header nav a:hover {
   margin: 50px;
  }
  
+ .feature-card {
+  width: 330px;
+  height: 210px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+  
+ }
  
+ .feature-card:hover {
+  transform: translateY(-5px);
+ }
+ 
+
 
 
 
